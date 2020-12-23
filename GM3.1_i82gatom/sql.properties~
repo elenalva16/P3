@@ -1,0 +1,18 @@
+saveContact=insert into `Usuario` (`Email`,`Nombre`,`Apellidos`,`FechaNacimiento`) values(?,?,?,?)
+updateContact=update Usuario set Nombre=?, Apellidos=?, FechaNacimiento=? where Email=?
+deleteContact=delete from `Usuario` where `Email`=?
+queryByEmail=SELECT * FROM `Usuario` WHERE `Email`=
+queryByName=SELECT * from `Usuario` where `Nombre`=
+queryByLastName = and `Apellidos`=
+queryByAge=select * from `Usuario` where YEAR(`FechaNacimiento`)=
+
+saveTags=insert into InteresUsuario (Email,idTag) values(?,?)
+queryByTag=select `Email` from `InteresUsuario` where `idTag`= 
+deleteTags=delete from InteresUsuario where Email=?
+checkData=select * from `Usuario`
+
+saveAd=insert into `Anuncio`(`ID`,`Titulo`,`Cuerpo`,`Fecha`,`Propietario`,`Estado`) values(?,?,?,?,?,?)
+queryByTagAd=select `IdAnuncio` from `InteresAnuncio` where `IdTag`= 
+
+changeStateWait=UPDATE `Anuncio` SET `Estado` = 'Publicado' WHERE `Fecha`=CURDATE()
+
