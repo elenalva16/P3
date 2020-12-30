@@ -12,5 +12,7 @@
 <p> Pulsa el botón para ver su información -> <a href="/GM3.1_i82gatom/MVC/vista/viewInfoPersona.jsp"><input type = "submit" value="Ver información personal" /></a> </p> 
 
 <p> Pulsa el botón para ser desconectado -> <a href="/GM3.1_i82gatom/logout.jsp"><input type = "submit" value="Desconectarse" /></a> </p> 
+
+<p> Crear anuncio -> <a href="/GM3.1_i82gatom/crearAnuncio.jsp"><input type = "submit" value="Crear anuncio" /></a> </p>
 </body>
 </html>

@@ -62,6 +62,26 @@ public class Propiedades{
 									if(num == 7) {
 									cadena=propiedad.getProperty("comprobarEmail");
 									}
+									else {
+										if(num == 11) {
+										cadena=propiedad.getProperty("saveAd");
+										}
+										else {
+											if(num == 14) {
+											cadena=propiedad.getProperty("getLastID");
+											}
+											else {
+												if(num == 27) {
+												cadena=propiedad.getProperty("saveRecipient");
+												}
+												else {
+													if(num == 29) {
+													cadena=propiedad.getProperty("saveTagsAd");
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}
